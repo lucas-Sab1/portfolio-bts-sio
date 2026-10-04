@@ -126,35 +126,6 @@ footer {
 }
 
 /* =========================================
-   RESPONSIVE DESIGN (Tablettes et Mobiles)
-   ========================================= */
-@media screen and (max-width: 900px) {
-    /* On cache le menu normal et on prépare sa version mobile */
-    .nav-links {
-        display: none; 
-        flex-direction: column; /* Aligne les liens de haut en bas */
-        width: 100%;
-        position: absolute; /* Permet au menu de passer par-dessus le contenu */
-        top: 60px; /* Se place juste sous la barre de navigation */
-        left: 0;
-        background-color: var(--couleur-nav);
-        text-align: center;
-        padding: 1rem 0;
-        box-shadow: 0 5px 5px rgba(0,0,0,0.1); /* Ombre sous le menu ouvert */
-    }
-
-    /* Cette classe sera ajoutée/retirée par notre JavaScript au clic */
-    .nav-links.active {
-        display: flex;
-    }
-
-    /* On affiche le bouton burger */
-    .burger {
-        display: block;
-    }
-}
-
-/* =========================================
    BOUTONS ET ÉLÉMENTS D'ACTION
    ========================================= */
 .btn-principal {
@@ -182,4 +153,33 @@ footer {
 .texte-presentation p {
     margin-bottom: 15px;
     line-height: 1.6;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN (Tablettes et Mobiles)
+   ========================================= */
+@media screen and (max-width: 900px) {
+    /* On cache le menu normal et on prépare sa version mobile */
+    .nav-links {
+        display: none; 
+        flex-direction: column; /* Aligne les liens de haut en bas */
+        width: 100%;
+        position: absolute; /* Permet au menu de passer par-dessus le contenu */
+        top: 60px; /* Se place juste sous la barre de navigation */
+        left: 0;
+        background-color: var(--couleur-nav);
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1); /* Ombre sous le menu ouvert */
+    }
+
+    /* Cette classe sera ajoutée/retirée par notre JavaScript au clic */
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* On affiche le bouton burger */
+    .burger {
+        display: block;
+    }
 }
