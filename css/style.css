@@ -1,0 +1,155 @@
+/* =========================================
+   VARIABLES GLOBALES (Couleurs et polices)
+   ========================================= */
+:root {
+    --couleur-principale: #2c3e50; /* Bleu très foncé/Gris */
+    --couleur-secondaire: #3498db; /* Bleu clair dynamique */
+    --couleur-texte: #333333; /* Gris foncé pour la lisibilité */
+    --couleur-fond: #f8f9fa; /* Gris très clair pour le fond du site */
+    --couleur-nav: #ffffff; /* Blanc pour la barre de navigation */
+}
+
+/* =========================================
+   RESET DE BASE (Enlève les marges par défaut)
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--couleur-texte);
+    background-color: var(--couleur-fond);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Permet au footer de rester en bas */
+}
+
+/* =========================================
+   BARRE DE NAVIGATION (Header)
+   ========================================= */
+header {
+    background-color: var(--couleur-nav);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Légère ombre sous le menu */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Écarte le logo et le menu */
+    align-items: center;
+    padding: 1rem 5%;
+    max-width: 1200px;
+    margin: 0 auto; /* Centre le menu sur les très grands écrans */
+}
+
+/* Le Logo / Nom */
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--couleur-principale);
+}
+
+/* Les liens du menu */
+.nav-links {
+    list-style: none; /* Enlève les puces */
+    display: flex;
+    gap: 1.5rem; /* Espace entre chaque lien */
+}
+
+.nav-links a {
+    text-decoration: none; /* Enlève le souligné bleu par défaut */
+    color: var(--couleur-texte);
+    font-weight: 500;
+    transition: color 0.3s ease; /* Animation douce au survol */
+}
+
+.nav-links a:hover {
+    color: var(--couleur-secondaire);
+}
+
+/* Bouton menu mobile (caché sur ordinateur) */
+.burger {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--couleur-principale);
+}
+
+/* =========================================
+   CONTENU PRINCIPAL (Main)
+   ========================================= */
+main {
+    flex: 1; /* Remplit l'espace vide entre le header et le footer */
+    padding: 4rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: var(--couleur-principale);
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--couleur-secondaire);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    max-width: 700px; /* Évite que le texte soit trop large sur PC */
+}
+
+/* =========================================
+   PIED DE PAGE (Footer)
+   ========================================= */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--couleur-principale);
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* =========================================
+   RESPONSIVE DESIGN (Tablettes et Mobiles)
+   ========================================= */
+@media screen and (max-width: 900px) {
+    /* On cache le menu normal et on prépare sa version mobile */
+    .nav-links {
+        display: none; 
+        flex-direction: column; /* Aligne les liens de haut en bas */
+        width: 100%;
+        position: absolute; /* Permet au menu de passer par-dessus le contenu */
+        top: 60px; /* Se place juste sous la barre de navigation */
+        left: 0;
+        background-color: var(--couleur-nav);
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1); /* Ombre sous le menu ouvert */
+    }
+
+    /* Cette classe sera ajoutée/retirée par notre JavaScript au clic */
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* On affiche le bouton burger */
+    .burger {
+        display: block;
+    }
+}
