@@ -153,3 +153,33 @@ footer {
         display: block;
     }
 }
+
+/* =========================================
+   BOUTONS ET ÉLÉMENTS D'ACTION
+   ========================================= */
+.btn-principal {
+    display: inline-block;
+    background-color: var(--couleur-secondaire);
+    color: var(--couleur-fond);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: var(--couleur-primaire);
+}
+
+.conteneurs-details {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texte-presentation p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
