@@ -33,48 +33,72 @@ body {
    ========================================= */ 
 header { 
     background-color: var(--couleur-nav); 
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Légère ombre sous le menu */ 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06); 
     position: sticky; 
     top: 0; 
     z-index: 1000; 
+    width: 100%;
 } 
  
 nav { 
     display: flex; 
-    justify-content: space-between; /* Écarte le logo et le menu */ 
+    justify-content: space-between; 
     align-items: center; 
     padding: 1rem 5%; 
-    max-width: 1200px; 
-    margin: 0 auto; /* Centre le menu sur les très grands écrans */ 
+    max-width: 1400px; 
+    margin: 0 auto; 
 } 
  
-/* Le Logo / Nom */ 
+/* --- Le Logo et le lien PortFolio --- */ 
+.logo {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 15px; 
+}
+
 .logo a { 
-    font-size: 1.5rem; 
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem; 
     font-weight: bold; 
     text-decoration: none; 
     color: var(--couleur-principale); 
+    white-space: nowrap; 
 } 
+
+.site-logo {
+    height: 45px; 
+    width: auto;  
+    display: block;
+    object-fit: contain;
+}
  
-/* Les liens du menu */ 
+/* --- Les liens du menu --- */ 
 .nav-links { 
-    list-style: none; /* Enlève les puces */ 
+    list-style: none; 
     display: flex; 
-    gap: 1.5rem; /* Espace entre chaque lien */ 
+    align-items: center;
+    gap: 1.8px; /* Espacement ajusté */
+    gap: 1.8rem;
+    margin: 0;
 } 
  
 .nav-links a { 
-    text-decoration: none; /* Enlève le souligné bleu par défaut */ 
+    display: inline-block;
+    text-decoration: none; 
     color: var(--couleur-texte); 
     font-weight: 500; 
-    transition: color 0.3s ease; /* Animation douce au survol */ 
+    font-size: 1rem;
+    white-space: nowrap; /* Empêche les retours à la ligne sur les libellés du menu */
+    transition: color 0.3s ease; 
 } 
  
 .nav-links a:hover { 
     color: var(--couleur-secondaire); 
 } 
  
-/* Bouton menu mobile (caché sur ordinateur) */ 
+/* Bouton menu mobile */ 
 .burger { 
     display: none; 
     font-size: 1.8rem; 
@@ -88,43 +112,63 @@ nav {
    CONTENU PRINCIPAL (Main) 
    ========================================= */ 
 main { 
-    flex: 1; /* Remplit l'espace vide entre le header et le footer */ 
-    padding: 4rem 5%; 
+    flex: 1; 
+    padding: 5rem 5%; 
     display: flex; 
     flex-direction: column; 
-    align-items: center; /* Centre horizontalement */ 
+    align-items: center; 
+    justify-content: center; 
     text-align: center; 
 } 
+
+#presentation {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; 
+}
  
 h1 { 
     font-size: 2.8rem; 
     color: var(--couleur-principale); 
-    margin-bottom: 0.5rem; 
+    line-height: 1.2;
+    margin: 0; 
 } 
  
 h2 { 
-    font-size: 1.5rem; 
+    font-size: 1.4rem; 
     color: var(--couleur-secondaire); 
-    margin-bottom: 1.5rem; 
-    font-weight: 400; 
+    font-weight: 500; 
+    margin: 0; 
 } 
  
 p { 
     font-size: 1.1rem; 
-    max-width: 700px; /* Évite que le texte soit trop large sur PC */ 
+    color: #444444; 
+    line-height: 1.8;
+    margin: 0; 
 } 
  
 /* ========================================= 
    PIED DE PAGE (Footer) 
    ========================================= */ 
 footer { 
-    text-align: center; 
-    padding: 1.5rem; 
+    text-align: left; 
+    padding: 1.5rem 5%;
     background-color: var(--couleur-principale); 
     color: white; 
-    font-size: 0.9rem; 
+    font-size: 0.95rem; 
+    width: 100%;
+    margin-top: auto; 
 } 
  
+footer p {
+    color: white; /* S'assure que le texte restauré du footer est bien blanc et lisible */
+    margin: 0;
+}
+
 /* ========================================= 
    BOUTONS ET ÉLÉMENTS D'ACTION 
    ========================================= */ 
@@ -132,55 +176,59 @@ footer {
     display: inline-block; 
     background-color: var(--couleur-secondaire); 
     color: var(--couleur-fond); 
-    padding: 10px 20px; 
+    padding: 12px 24px; 
     text-decoration: none; 
-    border-radius: 5px; 
+    border-radius: 6px; 
     font-weight: bold; 
-    margin-top: 20px; 
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
 } 
  
 .btn-principal:hover { 
     background-color: var(--couleur-principale); 
     color: #ffffff;
-} 
- 
-.conteneurs-details { 
-    max-width: 800px; 
-    margin: 0 auto; 
-    text-align: center; 
-} 
- 
-.texte-presentation p { 
-    margin-bottom: 15px; 
-    line-height: 1.6; 
+    transform: translateY(-2px); 
 } 
  
 /* ========================================= 
    RESPONSIVE DESIGN (Tablettes et Mobiles) 
    ========================================= */ 
-@media screen and (max-width: 900px) { 
-    /* On cache le menu normal et on prépare sa version mobile */ 
+@media screen and (max-width: 1200px) {
+    .nav-links {
+        gap: 1.2rem; 
+    }
+    .logo a {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 1024px) { 
     .nav-links { 
         display: none;  
-        flex-direction: column; /* Aligne les liens de haut en bas */ 
+        flex-direction: column; 
         width: 100%; 
-        position: absolute; /* Permet au menu de passer par-dessus le contenu */ 
-        top: 60px; /* Se place juste sous la barre de navigation */ 
+        position: absolute; 
+        top: 100%; 
         left: 0; 
         background-color: var(--couleur-nav); 
         text-align: center; 
-        padding: 1rem 0; 
-        box-shadow: 0 5px 5px rgba(0,0,0,0.1); /* Ombre sous le menu ouvert */ 
+        padding: 2rem 0; 
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1); 
+        gap: 1.5rem;
     } 
  
-    /* Cette classe sera ajoutée/retirée par notre JavaScript au clic */ 
     .nav-links.active { 
         display: flex; 
     } 
  
-    /* On affiche le bouton burger */ 
     .burger { 
         display: block; 
     } 
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 }

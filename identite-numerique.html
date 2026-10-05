@@ -4,15 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'identité numérique - Lucas SABLAN</title>
+    <!-- Favicon dans l'onglet -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo portfolio sio.svg">
+    
+    <!-- Lien vers notre fichier CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- EN-TÊTE ET NAVIGATION -->
     <header>
         <nav>
             <div class="logo">
-                <a href="index.html">PortFolio / SABLAN.Lucas</a>
+                <!-- Logo visuel sur le site -->
+                <a href="index.html">
+                    <img src="assets/images/logo portfolio sio.svg" alt="Logo Portfolio" class="site-logo">
+                </a>
+                <!-- Lien texte à droite du logo -->
+                <a href="index.html">
+                    PortFolio/SABLAN.Lucas
+                </a>
             </div>
-            <button class="burger" aria-label="Ouvrir le menu">☰</button>
+            
+            <!-- Menu burger pour mobile -->
+            <button class="burger" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+            
             <ul class="nav-links">
                 <li><a href="index.html">Présentation</a></li>
                 <li><a href="identite-numerique.html">L’identité numérique</a></li>
@@ -28,29 +45,23 @@
 
     <!-- CONTENU PRINCIPAL DE LA PAGE -->
     <main>
-        <section id="en-tete-veille" style="text-align: center; margin-bottom: 2rem;">
+        <section id="en-tete-veille" style="text-align: center; margin-bottom: 2.5rem;">
             <h1>L'identité numérique</h1>
             <h2>Ma veille technologique</h2>
+            <!-- Bouton de renvoi vers la page de méthodologie cachée -->
+            <a href="methodologie-veille.html" class="btn-principal" style="margin-top: 1rem;">Voir ma méthodologie et mes outils</a>
         </section>
 
-        <!-- BLOC 1 : LA DÉMARCHE (Obligatoire pour l'évaluation) -->
-        <section id="demarche-veille" class="conteneurs-details" style="background-color: var(--couleur-nav); padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 3rem; text-align: left;">
-            <h3 style="color: var(--couleur-principale); margin-bottom: 1rem;">Ma méthodologie de veille</h3>
-            <p><strong>Agrégateur de flux utilisé :</strong> [CONTENU À FOURNIR]</p>
-            <p><strong>Abonnements / Flux RSS :</strong> [CONTENU À FOURNIR]</p>
-            <p><strong>Organisation :</strong> [CONTENU À FOURNIR]</p>
-        </section>
-
-        <!-- BLOC 2 : LES ARTICLES -->
+        <!-- LES ARTICLES ET SYNTHÈSES -->
         <section id="articles-veille" class="conteneurs-details">
             <h3 style="color: var(--couleur-principale); margin-bottom: 1.5rem; text-align: left;">Mes derniers articles et synthèses</h3>
             
-            <!-- Modèle d'un article (à dupliquer pour chaque nouvelle veille) -->
+            <!-- Modèle d'un article -->
             <article style="background-color: var(--couleur-nav); padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border-left: 4px solid var(--couleur-secondaire); text-align: left;">
                 <h4 style="color: var(--couleur-principale); font-size: 1.2rem; margin-bottom: 0.5rem;">[CONTENU À FOURNIR : Titre de l'article ou du sujet]</h4>
                 <p style="font-size: 0.85rem; color: #666; margin-bottom: 1rem;">Publié le [CONTENU À FOURNIR : Date] | Source : [CONTENU À FOURNIR : Nom du site]</p>
                 <p style="margin-bottom: 1rem;">[CONTENU À FOURNIR : Bref résumé de l'article, impact sur l'identité numérique, et ton analyse personnelle.]</p>
-                <a href="#" target="_blank" class="btn-principal" style="margin-top: 0; padding: 8px 15px; font-size: 0.9rem;">Lire la source</a>
+                <a href="#" target="_blank" style="color: var(--couleur-secondaire); font-weight: bold; text-decoration: none;">Lire la source ➔</a>
             </article>
 
         </section>
