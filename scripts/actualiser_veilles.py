@@ -339,23 +339,40 @@ def calculer_score(article, theme):
 # CRÉATION D'UNE VEILLE
 # ---------------------------------------------------------
 
+import random
+
 def transformer_article(article, theme):
     if theme == "cybersecurite":
         source = "CERT-FR / ANSSI"
-        analyse = (
-            "Cette actualité est intéressante dans le cadre de ma veille "
-            "car elle permet de suivre l'évolution des menaces, des "
-            "techniques d'attaque et des moyens de protection des "
-            "systèmes d'information."
-        )
+
+        analyses = [
+            "Cette actualité est intéressante car elle permet de suivre les nouvelles menaces en cybersécurité et les moyens de protéger les systèmes d'information.",
+            
+            "Cette publication permet de mieux comprendre les risques qui peuvent toucher les systèmes informatiques et les mesures mises en place pour les limiter.",
+            
+            "Cette actualité m'intéresse car elle montre l'évolution des menaces informatiques et l'importance de maintenir les systèmes à jour.",
+            
+            "Cette information est utile pour ma veille car elle permet de suivre les nouvelles techniques d'attaque et les solutions permettant de renforcer la sécurité.",
+            
+            "Cette actualité permet de rester informé sur les problèmes de sécurité informatique et sur les bonnes pratiques pour protéger les systèmes."
+        ]
+
     else:
         source = "CNIL"
-        analyse = (
-            "Cette actualité est intéressante dans le cadre de ma veille "
-            "car elle permet de suivre les évolutions liées à l'identité "
-            "numérique, à l'authentification et à la protection des "
-            "données personnelles."
-        )
+
+        analyses = [
+            "Cette actualité est intéressante car elle permet de suivre les évolutions liées à l'identité numérique et à la protection des données personnelles.",
+            
+            "Cette publication permet de mieux comprendre les enjeux liés à l'utilisation des données personnelles et à leur protection.",
+            
+            "Cette actualité m'intéresse car elle montre l'évolution des règles et des pratiques concernant l'identité numérique.",
+            
+            "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée.",
+            
+            "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
+        ]
+
+    analyse = random.choice(analyses)
 
     resume = article["description"]
 
