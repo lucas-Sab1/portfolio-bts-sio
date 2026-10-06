@@ -1,0 +1,20 @@
+{
+  "cybersecurite": [
+    {
+      "titre": "[CONTENU À FOURNIR : Titre de l'ancienne veille Cyber]",
+      "date": "2026-09-15",
+      "source": "[CONTENU À FOURNIR : Nom du site]",
+      "lien": "#",
+      "resume": "[CONTENU À FOURNIR : Bref résumé de l'article, impact technique et analyse.]"
+    }
+  ],
+  "identite_numerique": [
+    {
+      "titre": "[CONTENU À FOURNIR : Titre de l'ancienne veille Identité]",
+      "date": "2026-09-20",
+      "source": "[CONTENU À FOURNIR : Nom du site]",
+      "lien": "#",
+      "resume": "[CONTENU À FOURNIR : Bref résumé de l'article, impact sur l'identité et analyse.]"
+    }
+  ]
+}

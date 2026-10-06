@@ -1,0 +1,31 @@
+name: Actualisation automatique des veilles
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Exécution automatique tous les lundis à 8h00 UTC
+  workflow_dispatch: # Permet le déclenchement manuel depuis l'interface GitHub
+
+jobs:
+  update-veilles:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Exécuter le script de veille
+        run: python scripts/actualiser_veilles.py
+
+      - name: Sauvegarder et publier les changements dans le JSON
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add data/veilles.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mises à jour automatiques des veilles BTS SIO" && git push)
