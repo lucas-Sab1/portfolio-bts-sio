@@ -43,6 +43,14 @@
   ],
   "identite_numerique": [
     {
+      "titre": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
+      "date": "Fri, 02 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-cas-indemnite",
+      "resume": "Une fuite ou un vol de données peut causer un préjudice pour les personnes concernées. Si l’incident résulte d’un manquement au RGPD, elles peuvent, sous certaines conditions, demander une indemnisation. C’est au juge, et non à la CNIL, de l’accorder.",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre les évolutions liées à l'identité numérique, à l'authentification et à la protection des données personnelles."
+    },
+    {
       "titre": "Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026",
       "date": "Wed, 23 Sep 2026 14:00:00 +0200",
       "source": "CNIL",
@@ -70,13 +78,6 @@
       "source": "CNIL",
       "lien": "https://www.cnil.fr/fr/cybermois-2026",
       "resume": "À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en cas de violation de données personnelles et à adopte..."
-    },
-    {
-      "titre": "Ordre du jour de la séance plénière du 1er octobre 2026",
-      "date": "Thu, 01 Oct 2026",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-1er-octobre-2026",
-      "resume": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 1er octobre 2026 à 9&amp;nbsp;h&amp;nbsp;30 avec l’ordre du jour suivant&amp;nbsp;:"
     }
   ]
 }
