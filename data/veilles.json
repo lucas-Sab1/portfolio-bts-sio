@@ -1,49 +1,55 @@
 {
   "cybersecurite": [
     {
-      "titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (25 septembre 2026)",
-      "date": "Fri, 25 Sep 2026",
-      "source": "CERT-FR (ANSSI)",
-      "lien": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1230/",
-      "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance."
+      "titre": "Vulnérabilités et risques des produits d’automatisation par IA agentique sur les postes de travail (13 avril 2026)",
+      "date": "Mon, 13 Apr 2026 00:00:00 +0000",
+      "source": "CERT-FR / ANSSI",
+      "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-016/",
+      "resume": "Depuis le début d’année 2026, les assistants personnels autonomes de type OpenClaw, Claude Cowork et d’autres solutions en sources ouvertes connaissent une adoption particulièrement soutenue. Contrairement aux assistants conversationnels classiques, ces assistants personnels autonomes ne se...",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre l'évolution des menaces, des techniques d'attaque et des moyens de protection des systèmes d'information."
     },
     {
-      "titre": "Multiples vulnérabilités dans le noyau Linux de SUSE (25 septembre 2026)",
-      "date": "Fri, 25 Sep 2026",
-      "source": "CERT-FR (ANSSI)",
-      "lien": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1231/",
-      "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, un déni de service à distance et une atteinte à la confidentialité des donné..."
+      "titre": "Vulnérabilité dans telnetd (21 janvier 2026)",
+      "date": "Wed, 21 Jan 2026 00:00:00 +0000",
+      "source": "CERT-FR / ANSSI",
+      "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+      "resume": "Le 20 janvier 2026, les détails de la vulnérabilité CVE-2026-24061, affectant *telnetd*, ont été publiés. Cette vulnérabilité permet à un attaquant de contourner l'authentification et de se connecter à une machine vulnérable en tant que l'utilisateur *root*. Elle a été introduite en mars 2015 et...",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre l'évolution des menaces, des techniques d'attaque et des moyens de protection des systèmes d'information."
     },
     {
-      "titre": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (25 septembre 2026)",
-      "date": "Fri, 25 Sep 2026",
-      "source": "CERT-FR (ANSSI)",
-      "lien": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1232/",
-      "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service."
+      "titre": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+      "date": "Thu, 02 Apr 2026 00:00:00 +0000",
+      "source": "CERT-FR / ANSSI",
+      "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+      "resume": "Le démarrage sécurisé (UEFI Secure Boot) est une fonctionnalité de sécurité disponible sur les ordinateurs PC clients et serveurs depuis 2011. Son rôle est de sécuriser la séquence de démarrage de l’appareil, en vérifiant l’intégrité du code exécuté entre la mise sous tension et le démarrage du...",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre l'évolution des menaces, des techniques d'attaque et des moyens de protection des systèmes d'information."
     },
     {
-      "titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (25 septembre 2026)",
-      "date": "Fri, 25 Sep 2026",
-      "source": "CERT-FR (ANSSI)",
-      "lien": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1229/",
-      "resume": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données."
+      "titre": "Bulletin d'actualité CERTFR-2014-ACT-004 (24 janvier 2014)",
+      "date": "Fri, 24 Jan 2014 00:00:00 +0000",
+      "source": "CERT-FR / ANSSI",
+      "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2014-ACT-004/",
+      "resume": "1 - Création du CERT-FR Le 21 janvier 2014, le CERTA a changé de nom pour devenir le CERT-FR (Computer Emergency Response Team - France). Le CERT-FR est le CERT gouvernemental français. Il apporte son soutien en matière de gestion d'incidents aux ministères, institutions, juridictions, autorités...",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre l'évolution des menaces, des techniques d'attaque et des moyens de protection des systèmes d'information."
     },
     {
-      "titre": "Multiples vulnérabilités dans les produits IBM (25 septembre 2026)",
-      "date": "Fri, 25 Sep 2026",
-      "source": "CERT-FR (ANSSI)",
-      "lien": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1233/",
-      "resume": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des ..."
-    },
-    {
-      "titre": "[CONTENU À FOURNIR : Titre de l'ancienne veille Cyber]",
-      "date": "2026-09-15",
-      "source": "[CONTENU À FOURNIR : Nom du site]",
-      "lien": "#",
-      "resume": "[CONTENU À FOURNIR : Bref résumé de l'article, impact technique et analyse.]"
+      "titre": "Bulletin d'actualité CERTFR-2015-ACT-006 (09 février 2015)",
+      "date": "Mon, 09 Feb 2015 00:00:00 +0000",
+      "source": "CERT-FR / ANSSI",
+      "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2015-ACT-006/",
+      "resume": "1 - Rappel des vulnérabilités récentes dans Adobe Flash Player Adobe Flash Player est utilisé principalement par les navigateurs Internet pour afficher du contenu dynamique sur des pages web. Depuis le début de l'année, plusieurs vulnérabilités sur Adobe Flash Player ont été signalées par le...",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre l'évolution des menaces, des techniques d'attaque et des moyens de protection des systèmes d'information."
     }
   ],
   "identite_numerique": [
+    {
+      "titre": "Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026",
+      "date": "Wed, 23 Sep 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques",
+      "resume": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services numériques (DSA) et le RGPD.",
+      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre les évolutions liées à l'identité numérique, à l'authentification et à la protection des données personnelles."
+    },
     {
       "titre": "Ordre du jour de la séance plénière du 24 septembre 2026",
       "date": "Thu, 24 Sep 2026",
@@ -71,20 +77,6 @@
       "source": "CNIL",
       "lien": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-1er-octobre-2026",
       "resume": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 1er octobre 2026 à 9&amp;nbsp;h&amp;nbsp;30 avec l’ordre du jour suivant&amp;nbsp;:"
-    },
-    {
-      "titre": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
-      "date": "Fri, 02 Oct 2026",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-cas-indemnite",
-      "resume": "Une fuite ou un vol de données peut causer un préjudice pour les personnes concernées. Si l’incident résulte d’un manquement au RGPD, elles peuvent, sous certaines conditions, demander une indemnisation. C’est au juge, et non à la CNIL, de l’accorder..."
-    },
-    {
-      "titre": "[CONTENU À FOURNIR : Titre de l'ancienne veille Identité]",
-      "date": "2026-09-20",
-      "source": "[CONTENU À FOURNIR : Nom du site]",
-      "lien": "#",
-      "resume": "[CONTENU À FOURNIR : Bref résumé de l'article, impact sur l'identité et analyse.]"
     }
   ]
 }
