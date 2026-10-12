@@ -43,6 +43,14 @@
   ],
   "identite_numerique": [
     {
+      "titre": "Rencontres Informatique & Libertés 2026 : voir la rediffusion de l'évènement",
+      "date": "Fri, 09 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/ril-2026",
+      "resume": "La CNIL a organisé la 2ème édition de ses Rencontres Informatique &amp; Libertés le mardi 29&nbsp;septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec la protection des données, notamment l’essor des lunettes connectées ou le rôle des sanctions.",
+      "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
+    },
+    {
       "titre": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
       "date": "Fri, 02 Oct 2026 14:00:00 +0200",
       "source": "CNIL",
@@ -71,13 +79,6 @@
       "source": "CNIL",
       "lien": "https://www.cnil.fr/fr/air2026",
       "resume": "Protection des droits des électeurs, ingérences étrangères… lundi 16&amp;nbsp;novembre 2026, à partir de 14&amp;nbsp;h, la CNIL vous invite à son événement dédié aux enjeux éthiques associés aux communications politiques et aux ingérences. Les inscri..."
-    },
-    {
-      "titre": "Cybermois 2026 : la CNIL et Cybermalveillance.gouv.fr publient une nouvelle ressource pour adopter les bons réflexes face à une violation de données",
-      "date": "Thu, 01 Oct 2026",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/cybermois-2026",
-      "resume": "À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en cas de violation de données personnelles et à adopte..."
     }
   ]
 }
