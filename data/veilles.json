@@ -43,43 +43,44 @@
   ],
   "identite_numerique": [
     {
-      "titre": "Cybermois 2026 : la CNIL et Cybermalveillance.gouv.fr publient une nouvelle ressource pour adopter les bons réflexes face à une violation de données",
-      "date": "Thu, 01 Oct 2026 14:00:00 +0200",
+      "titre": "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques",
+      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
       "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/cybermois-2026",
-      "resume": "À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en cas de violation de données personnelles et à adopter les bons réflexes pour limiter les risques.",
-      "analyse": "Cette publication permet de mieux comprendre les enjeux liés à l'utilisation des données personnelles et à leur protection."
+      "lien": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes",
+      "resume": "La CNIL, l’ICO et la CNPD publient leur étude conjointe «&nbsp;De la protection des données à la création de valeur en finance&nbsp;: évaluation des données, comptabilité, fusions-acquisitions et gouvernance&nbsp;», rassemblant analyses et bonnes pratiques à destination des entreprises et des acteurs financiers.",
+      "analyse": "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
     },
     {
-      "titre": "Rencontres Informatique & Libertés 2026 : voir la rediffusion de l'évènement",
-      "date": "Fri, 09 Oct 2026 14:00:00 +0200",
+      "titre": "Le CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes connectées",
+      "date": "Tue, 13 Oct 2026 14:00:00 +0200",
       "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/ril-2026",
-      "resume": "La CNIL a organisé la 2ème édition de ses Rencontres Informatique &amp; Libertés le mardi 29&nbsp;septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec la protection des données, notamment l’essor des lunettes connectées ou le rôle des sanctions.",
+      "lien": "https://www.cnil.fr/fr/cepd-declaration-lunettes-connectees",
+      "resume": "Lors de sa dernière plénière, le CEPD a adopté une déclaration sur les lunettes connectées et publié le rapport intitulé « Le regard connecté. Une sociologie des usages et des défis liés aux lunettes connectées », élaboré dans le cadre du programme de réserve d’experts (Support Pool of Expert).",
+      "analyse": "Cette actualité est intéressante car elle permet de suivre les évolutions liées à l'identité numérique et à la protection des données personnelles."
+    },
+    {
+      "titre": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
+      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
+      "resume": "Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGPD afin d’être légale. La CNIL fait le point sur vos droits.",
+      "analyse": "Cette actualité est intéressante car elle permet de suivre les évolutions liées à l'identité numérique et à la protection des données personnelles."
+    },
+    {
+      "titre": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
+      "date": "Mon, 19 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
+      "resume": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers&nbsp;une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
+      "analyse": "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
+    },
+    {
+      "titre": "Reconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?",
+      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre",
+      "resume": "La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle est encadrée par le RGPD et ne peut reposer sur l’intérêt légitime que si certaines conditions sont remplies.",
       "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
-    },
-    {
-      "titre": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
-      "date": "Fri, 02 Oct 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-cas-indemnite",
-      "resume": "Une fuite ou un vol de données peut causer un préjudice pour les personnes concernées. Si l’incident résulte d’un manquement au RGPD, elles peuvent, sous certaines conditions, demander une indemnisation. C’est au juge, et non à la CNIL, de l’accorder.",
-      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre les évolutions liées à l'identité numérique, à l'authentification et à la protection des données personnelles."
-    },
-    {
-      "titre": "Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026",
-      "date": "Wed, 23 Sep 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques",
-      "resume": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services numériques (DSA) et le RGPD.",
-      "analyse": "Cette actualité est intéressante dans le cadre de ma veille car elle permet de suivre les évolutions liées à l'identité numérique, à l'authentification et à la protection des données personnelles."
-    },
-    {
-      "titre": "Ordre du jour de la séance plénière du 24 septembre 2026",
-      "date": "Thu, 24 Sep 2026",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-24-septembre-2026",
-      "resume": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 24 septembre 2026 à 9&amp;nbsp;h&amp;nbsp;30 avec l’ordre du jour suivant&amp;nbsp;:"
     }
   ]
 }
