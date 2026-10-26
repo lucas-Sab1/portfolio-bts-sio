@@ -43,6 +43,14 @@
   ],
   "identite_numerique": [
     {
+      "titre": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "date": "Tue, 20 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
+      "resume": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professionnels.",
+      "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
+    },
+    {
       "titre": "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques",
       "date": "Fri, 16 Oct 2026 14:00:00 +0200",
       "source": "CNIL",
@@ -73,14 +81,6 @@
       "lien": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
       "resume": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers&nbsp;une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
       "analyse": "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
-    },
-    {
-      "titre": "Reconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?",
-      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre",
-      "resume": "La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle est encadrée par le RGPD et ne peut reposer sur l’intérêt légitime que si certaines conditions sont remplies.",
-      "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
     }
   ]
 }
