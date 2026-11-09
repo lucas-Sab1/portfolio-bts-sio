@@ -43,6 +43,30 @@
   ],
   "identite_numerique": [
     {
+      "titre": "Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants",
+      "date": "Wed, 04 Nov 2026 13:00:00 +0100",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
+      "resume": "Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au numérique.",
+      "analyse": "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
+    },
+    {
+      "titre": "Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions",
+      "date": "Mon, 09 Nov 2026 13:00:00 +0100",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+      "resume": "En novembre 2026, la CNIL a prononcé dix sanctions simplifiées à l’encontre de collectivités territoriales et d’un établissement public, pour des manquements relatifs à la cybersécurité.",
+      "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
+    },
+    {
+      "titre": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
+      "date": "Mon, 19 Oct 2026 14:00:00 +0200",
+      "source": "CNIL",
+      "lien": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
+      "resume": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers&nbsp;une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
+      "analyse": "Cette actualité m'intéresse car elle montre l'évolution des règles et des pratiques concernant l'identité numérique."
+    },
+    {
       "titre": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
       "date": "Thu, 29 Oct 2026 13:00:00 +0100",
       "source": "CNIL",
@@ -57,30 +81,6 @@
       "lien": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
       "resume": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professionnels.",
       "analyse": "Cette information est utile pour ma veille car elle permet de suivre les questions liées à l'authentification, aux données personnelles et à la vie privée."
-    },
-    {
-      "titre": "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques",
-      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes",
-      "resume": "La CNIL, l’ICO et la CNPD publient leur étude conjointe «&nbsp;De la protection des données à la création de valeur en finance&nbsp;: évaluation des données, comptabilité, fusions-acquisitions et gouvernance&nbsp;», rassemblant analyses et bonnes pratiques à destination des entreprises et des acteurs financiers.",
-      "analyse": "Cette actualité permet de rester informé sur les évolutions concernant la protection des données et l'identité numérique."
-    },
-    {
-      "titre": "Le CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes connectées",
-      "date": "Tue, 13 Oct 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/cepd-declaration-lunettes-connectees",
-      "resume": "Lors de sa dernière plénière, le CEPD a adopté une déclaration sur les lunettes connectées et publié le rapport intitulé « Le regard connecté. Une sociologie des usages et des défis liés aux lunettes connectées », élaboré dans le cadre du programme de réserve d’experts (Support Pool of Expert).",
-      "analyse": "Cette actualité est intéressante car elle permet de suivre les évolutions liées à l'identité numérique et à la protection des données personnelles."
-    },
-    {
-      "titre": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
-      "date": "Fri, 16 Oct 2026 14:00:00 +0200",
-      "source": "CNIL",
-      "lien": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
-      "resume": "Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGPD afin d’être légale. La CNIL fait le point sur vos droits.",
-      "analyse": "Cette actualité est intéressante car elle permet de suivre les évolutions liées à l'identité numérique et à la protection des données personnelles."
     }
   ]
 }
