@@ -3,56 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ateliers de Professionnalisation - Lucas SABLAN</title>
-    <!-- Favicon dans l'onglet -->
     <link rel="icon" type="image/svg+xml" href="assets/images/logo portfolio sio.svg">
-    
-    <!-- Lien vers notre fichier CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ap-stages.css">
+
+    <meta name="description" content="Ateliers de professionnalisation du BTS SIO option SISR de Lucas SABLAN.">
+    <title>Ateliers de Professionnalisation - Lucas SABLAN</title>
 </head>
 <body>
-    <!-- EN-TÊTE ET NAVIGATION -->
-    <header>
-        <nav>
-            <div class="logo">
-                <!-- Logo visuel sur le site -->
-                <a href="index.html">
-                    <img src="assets/images/logo portfolio sio.svg" alt="Logo Portfolio" class="site-logo">
-                </a>
-                <!-- Lien texte à droite du logo -->
-                <a href="index.html">
-                    PortFolio/SABLAN.Lucas
-                </a>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="index.html" aria-label="Retour à l'accueil">
+                <img src="assets/images/logo portfolio sio.svg" alt="Logo Portfolio" class="site-logo">
+            </a>
+            <a href="index.html">PortFolio/SABLAN.Lucas</a>
+        </div>
+
+        <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="identite-numerique.html">L’identité numérique</a></li>
+            <li><a href="cybersecurite.html">Cybersécurité</a></li>
+            <li><a href="ap.html">AP</a></li>
+            <li><a href="stage-1.html">Stage_1</a></li>
+            <li><a href="stage-2.html">Stage_2</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="portfolio-main">
+        <section class="portfolio-hero">
+            <p class="eyebrow">BTS SIO · OPTION SISR</p>
+            <h1>Ateliers de <span>professionnalisation</span></h1>
+            <p class="hero-lead">Retrouvez ici les travaux réalisés au cours de ma formation, classés par atelier.</p>
+            <div class="hero-meta">
+                <span><i></i> Première année</span>
+                <span><i></i> Deuxième année</span>
+                <span class="meta-count">7 ateliers répertoriés</span>
             </div>
-            
-            <!-- Menu burger pour mobile -->
-            <button class="burger" aria-label="Ouvrir le menu">
-                ☰
-            </button>
-            
-            <ul class="nav-links">
-                <li><a href="index.html">Présentation</a></li>
-                <li><a href="identite-numerique.html">L’identité numérique</a></li>
-                <li><a href="cybersecurite.html">Cybersécurité</a></li>
-                <li><a href="ap.html">AP</a></li>
-                <li><a href="stage-1.html">Stage_1</a></li>
-                <li><a href="stage-2.html">Stage_2</a></li>
-                <li><a href="guide.html">Guide</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="ap">
-            <h1>Ateliers de Professionnalisation (AP)</h1>
-            <p>[CONTENU À FOURNIR : Liste et description des AP réalisés]</p>
         </section>
-    </main>
 
+        <section class="content-section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">MES TRAVAUX</p>
+                    <h2>Explorer les ateliers</h2>
+                </div>
+                <p class="section-hint">Sélectionne un atelier pour afficher son espace et ses documents.</p>
+            </div>
+            <div class="ap-grid">
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 1.1</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 1.1</span>
+                        <span class="ap-card-year">Première année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 1.1.</p>
+                    <div class="file-list" aria-label="Documents de AP 1.1">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 1.2</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 1.2</span>
+                        <span class="ap-card-year">Première année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 1.2.</p>
+                    <div class="file-list" aria-label="Documents de AP 1.2">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 1.3</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 1.3</span>
+                        <span class="ap-card-year">Première année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 1.3.</p>
+                    <div class="file-list" aria-label="Documents de AP 1.3">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 1.4</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 1.4</span>
+                        <span class="ap-card-year">Première année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 1.4.</p>
+                    <div class="file-list" aria-label="Documents de AP 1.4">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 2.1</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 2.1</span>
+                        <span class="ap-card-year">Deuxième année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 2.1.</p>
+                    <div class="file-list" aria-label="Documents de AP 2.1">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 2.2</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 2.2</span>
+                        <span class="ap-card-year">Deuxième année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 2.2.</p>
+                    <div class="file-list" aria-label="Documents de AP 2.2">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            <details class="ap-card">
+                <summary>
+                    <span class="ap-card-icon" aria-hidden="true">▰</span>
+                    <span class="ap-card-main">
+                        <span class="ap-card-code">AP 2.3</span>
+                        <span class="ap-card-title">Atelier de professionnalisation 2.3</span>
+                        <span class="ap-card-year">Deuxième année</span>
+                    </span>
+                    <span class="ap-card-action">Ouvrir <span aria-hidden="true">＋</span></span>
+                </summary>
+                <div class="ap-folder">
+                    <p class="ap-description">Ajoute ici une courte présentation de l’atelier 2.3.</p>
+                    <div class="file-list" aria-label="Documents de AP 2.3">
+                        <div class="file-row file-row-heading">
+                            <span>Nom</span><span>Type</span><span>État</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Présentation de l’atelier</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▧</span> Captures et illustrations</span>
+                            <span class="file-type">Images</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                        <div class="file-row">
+                            <span class="file-name"><span class="file-icon">▤</span> Compte rendu / bilan</span>
+                            <span class="file-type">Document</span>
+                            <span class="file-state">À ajouter</span>
+                        </div>
+                    </div>
+                    <p class="folder-note">Remplace ces lignes par les vrais fichiers et liens de cet atelier. Aucun document n’est créé automatiquement.</p>
+                </div>
+            </details>
+            </div>
+        </section>
+        <div class="page-footnote">Les descriptions et documents seront complétés avec les éléments réels de chaque atelier.</div>
+    </main>
     <footer>
         <p>&copy; 2026 - Lucas SABLAN | Portfolio BTS SIO SISR</p>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+        // Synchronise l'état accessible du bouton avec l'ouverture du menu existant.
+        const burgerButton = document.querySelector('.burger');
+        const menuLinks = document.querySelector('.nav-links');
+        if (burgerButton && menuLinks) {
+            burgerButton.addEventListener('click', () => {
+                burgerButton.setAttribute('aria-expanded', menuLinks.classList.contains('active') ? 'true' : 'false');
+            });
+        }
+    </script>
 </body>
 </html>

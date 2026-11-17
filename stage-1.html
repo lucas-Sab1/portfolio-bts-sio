@@ -3,53 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stage 1ère année - Lucas SABLAN</title>
-    <!-- Favicon dans l'onglet -->
     <link rel="icon" type="image/svg+xml" href="assets/images/logo portfolio sio.svg">
-    
-    <!-- Lien vers notre fichier CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ap-stages.css">
+
+    <meta name="description" content="Stage de première année de Lucas SABLAN dans le cadre du BTS SIO option SISR.">
+    <title>Stage de première année - Lucas SABLAN</title>
 </head>
 <body>
-    <!-- EN-TÊTE ET NAVIGATION -->
-    <header>
-        <nav>
-            <div class="logo">
-                <!-- Logo visuel sur le site -->
-                <a href="index.html">
-                    <img src="assets/images/logo portfolio sio.svg" alt="Logo Portfolio" class="site-logo">
-                </a>
-                <!-- Lien texte à droite du logo -->
-                <a href="index.html">
-                    PortFolio/SABLAN.Lucas
-                </a>
+<header>
+    <nav>
+        <div class="logo">
+            <a href="index.html" aria-label="Retour à l'accueil">
+                <img src="assets/images/logo portfolio sio.svg" alt="Logo Portfolio" class="site-logo">
+            </a>
+            <a href="index.html">PortFolio/SABLAN.Lucas</a>
+        </div>
+
+        <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Présentation</a></li>
+            <li><a href="identite-numerique.html">L’identité numérique</a></li>
+            <li><a href="cybersecurite.html">Cybersécurité</a></li>
+            <li><a href="ap.html">AP</a></li>
+            <li><a href="stage-1.html">Stage_1</a></li>
+            <li><a href="stage-2.html">Stage_2</a></li>
+            <li><a href="guide.html">Guide</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="portfolio-main stage-main">
+        <section class="portfolio-hero stage-hero">
+            <p class="eyebrow">BTS SIO · OPTION SISR · EXPÉRIENCE PROFESSIONNELLE</p>
+            <h1>Mon <span>stage de première année</span></h1>
+            <p class="hero-lead">Découverte du monde professionnel et mise en pratique des connaissances acquises pendant la première année de BTS SIO.</p>
+            <div class="hero-meta">
+                <span><i></i> PREMIÈRE ANNÉE</span>
+                <span><i></i> Rapport et missions à compléter</span>
             </div>
-            
-            <!-- Menu burger pour mobile -->
-            <button class="burger" aria-label="Ouvrir le menu">
-                ☰
-            </button>
-            
-            <ul class="nav-links">
-                <li><a href="index.html">Présentation</a></li>
-                <li><a href="identite-numerique.html">L’identité numérique</a></li>
-                <li><a href="cybersecurite.html">Cybersécurité</a></li>
-                <li><a href="ap.html">AP</a></li>
-                <li><a href="stage-1.html">Stage_1</a></li>
-                <li><a href="stage-2.html">Stage_2</a></li>
-                <li><a href="guide.html">Guide</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="stage-1">
-            <h1>Stage de 1ère année</h1>
-            <p>[CONTENU À FOURNIR : Entreprise, missions, compétences acquises]</p>
         </section>
-    </main>
 
+        <section class="content-section stage-content">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">PARCOURS PROFESSIONNEL</p>
+                    <h2>Mon expérience</h2>
+                </div>
+                <p class="section-hint">Les rubriques ci-dessous sont prêtes à accueillir tes informations et tes documents.</p>
+            </div>
+            <div class="stage-panels">
+            <section class="stage-panel" id="stage-part-1">
+                <div class="panel-number">01</div>
+                <div class="panel-content">
+                    <p class="eyebrow">PREMIÈRE ANNÉE · 01</p>
+                    <h2>Présentation du stage</h2>
+                    <p class="panel-intro">Présente le contexte général de ton stage de première année.</p>
+                    <div class="placeholder-card">
+                        <span class="placeholder-mark" aria-hidden="true">＋</span>
+                        <div>
+                            <h3>Entreprise et période</h3>
+                            <p>Ajoute le nom de l’entreprise (ou une version anonymisée), les dates, ton poste et le contexte.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stage-panel" id="stage-part-2">
+                <div class="panel-number">02</div>
+                <div class="panel-content">
+                    <p class="eyebrow">PREMIÈRE ANNÉE · 02</p>
+                    <h2>Missions réalisées</h2>
+                    <p class="panel-intro">Décris les activités et tâches que tu as réellement effectuées.</p>
+                    <div class="placeholder-card">
+                        <span class="placeholder-mark" aria-hidden="true">＋</span>
+                        <div>
+                            <h3>Missions et activités</h3>
+                            <p>Ajoute une mission par bloc : objectif, étapes réalisées, outils utilisés et résultat obtenu.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stage-panel" id="stage-part-3">
+                <div class="panel-number">03</div>
+                <div class="panel-content">
+                    <p class="eyebrow">PREMIÈRE ANNÉE · 03</p>
+                    <h2>Environnement technique</h2>
+                    <p class="panel-intro">Présente les équipements, logiciels et technologies rencontrés.</p>
+                    <div class="placeholder-card">
+                        <span class="placeholder-mark" aria-hidden="true">＋</span>
+                        <div>
+                            <h3>Matériel et logiciels</h3>
+                            <p>Ajoute les systèmes, équipements réseau, logiciels et outils que tu as réellement utilisés.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="stage-panel" id="stage-part-4">
+                <div class="panel-number">04</div>
+                <div class="panel-content">
+                    <p class="eyebrow">PREMIÈRE ANNÉE · 04</p>
+                    <h2>Bilan et documents</h2>
+                    <p class="panel-intro">Fais le point sur les compétences mobilisées et les apprentissages.</p>
+                    <div class="placeholder-card">
+                        <span class="placeholder-mark" aria-hidden="true">＋</span>
+                        <div>
+                            <h3>Bilan et ressources</h3>
+                            <p>Ajoute ton bilan, ton rapport de stage et les documents que tu as le droit de publier.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </section>
+        <div class="page-footnote">Les champs sont volontairement laissés à compléter : seules tes informations réelles seront publiées.</div>
+    </main>
     <footer>
         <p>&copy; 2026 - Lucas SABLAN | Portfolio BTS SIO SISR</p>
     </footer>
